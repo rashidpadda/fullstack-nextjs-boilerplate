@@ -9,7 +9,8 @@
     "lint": "next lint",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,md,mdx,css,yaml,yml}\"",
     "check": "prettier --check \"**/*.{ts,tsx,js,jsx,md,mdx,css,yaml,yml}\"",
-    "prepare": "husky"
+    "prepare": "husky install",
+    "test": "echo 'No tests yet'"
   },
   "dependencies": {
     "next": "15.0.2",
@@ -18,6 +19,8 @@
     "yarn": "^1.22.22"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
