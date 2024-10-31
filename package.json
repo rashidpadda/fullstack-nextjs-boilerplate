@@ -10,12 +10,13 @@
     "format:fix": "prettier --write .",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,md,mdx,css,yaml,yml}\"",
     "check": "prettier --check \"**/*.{ts,tsx,js,jsx,md,mdx,css,yaml,yml}\"",
-    "prepare": "husky",
+    "prepare": "husky install",
     "test": "echo 'No tests yet'",
     "lint-staged": "lint-staged"
   },
   "dependencies": {
     "next": "15.0.2",
+    "nodemailer": "^6.9.16",
     "react": "19.0.0-rc-02c0e824-20241028",
     "react-dom": "19.0.0-rc-02c0e824-20241028",
     "yarn": "^1.22.22"
@@ -25,6 +26,7 @@
     "@commitlint/config-conventional": "^19.5.0",
     "@commitlint/types": "^19.5.0",
     "@types/node": "^20",
+    "@types/nodemailer": "^6.4.16",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "conventional-changelog-atom": "^5.0.0",
